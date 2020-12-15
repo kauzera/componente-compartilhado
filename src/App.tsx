@@ -1,20 +1,8 @@
 import React from "react";
+import Componente from "./component";
 
 const App: React.FC = () => {
-  return (
-    <div
-      style={{
-        boxSizing: "border-box",
-        width: "90%",
-        height: "auto",
-        textAlign: "center",
-        border: "1px solid #ccc",
-        margin: "20px auto",
-      }}
-    >
-      <h1>Componente compartilhado entre aplicações</h1>
-    </div>
-  );
+  return <Componente />;
 };
 
 export default App;
